@@ -1,0 +1,80 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family:'Figtree', sans-serif;
+}
+
+body {
+  background-color: hsl(47, 88%, 63%);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.card {
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 8px 10px black;
+  border-radius: 5%;
+  border: 1px solid black;
+  margin: 100px auto 50px;
+  width: 384px;
+  padding: 20px;
+  height: 515px;
+}
+.card-img {
+  width: 335px;
+}
+
+.card-img img {
+  display: block;
+  width: 100%;
+  border-radius: 22px;
+}
+
+.learning {
+  border-radius: 4px;
+  font-weight: 800;
+  background-color: hsl(47, 88%, 63%);
+  display: inline-block;
+  padding: 6px 10px;
+  margin: 20px auto;
+}
+
+.card-txt h1, h5 {
+  padding: auto 15px;
+}
+
+.card-txt h1 {
+  padding-top: 13px;
+}
+
+.card-txt h1:hover{
+  color: hsl(47, 88%, 63%);
+  cursor: pointer;
+}
+
+.parrafo-ppl {
+  font-size: 16px;
+  color: hsl(0, 0%, 50%);
+  line-height: 1.5em;
+  margin-top: 17px;
+}
+
+.author {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-top: 24px;
+}
+
+
+.author img {
+  width: 32px;
+  margin-right: 13px;
+}
